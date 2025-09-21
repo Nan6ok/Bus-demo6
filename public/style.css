@@ -1,0 +1,12 @@
+:root{--accent:#d32f2f;--bg:#f6f7fb}
+*{box-sizing:border-box} html,body{height:100%;margin:0;font-family:Arial;background:var(--bg)}
+header{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--accent);color:#fff}
+.controls{display:flex;gap:8px;align-items:center}
+.container{display:flex;height:calc(100vh - 56px)}
+.sidebar{width:320px;background:#fff;border-right:1px solid #eee;padding:12px;overflow:auto}
+#map{flex:1;height:100%}
+#stopList{list-style:none;padding:0;margin:0}
+#stopList li{padding:6px;border-bottom:1px solid #f0f0f0;display:flex;justify-content:space-between}
+.bus-icon{font-size:16px}
+.estimated{opacity:0.6;filter:grayscale(40%)}
+.clock{color:#fff;margin-left:8px}
